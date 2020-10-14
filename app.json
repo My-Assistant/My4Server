@@ -1,0 +1,22 @@
+{
+  "name": "My",
+  "description": "My.",
+  "image": "heroku/python",
+  "repository": "https://github.com/mytja/My4Server",
+  "keywords": ["python", "flask", "my" ],
+  "addons": [ "" ],
+  "env": {
+    "SECRET_KEY": {
+      "description": "Secret key.",
+      "generator": "secret"
+    }
+  },
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "python manage.py collectstatic --noinput",
+        "test": "python manage.py test"
+      }
+    }
+  }
+}
