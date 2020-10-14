@@ -2,3 +2,4 @@ wikipedia
 pyowm
 youtube-search-python
 flask
+gunicorn
