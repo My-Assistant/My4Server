@@ -1,4 +1,4 @@
 wikipedia
 pyowm
-youtubesearchpython
+youtube-search-python
 flask
