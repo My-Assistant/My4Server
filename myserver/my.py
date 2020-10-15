@@ -61,6 +61,14 @@ def MyMain(text):
     elif mymainr=="what's your favorite food" or mymainr=="what is your favorite food":
         return "I like pizza."
         My = False
+    elif mymainr=="open moodle":
+        return "app:com.moodle.moodlemobile"
+    elif mymainr=="open harmonoid" or mymainr=="open a music app":
+        return "app:com.alexmercerind.harmonoid"
+    elif mymainr=="open youtube":
+        return "com.google.android.youtube"
+    elif mymainr=="track my parcels" or mymainr=="open parcels":
+        return "app:com.brightstripe.parcels"
     elif mymainr=="what's the time" or mymainr=="what is the time":
        lt = time.localtime()
        lth = lt.tm_hour
