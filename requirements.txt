@@ -3,4 +3,4 @@ pyowm
 youtube-search-python
 flask
 gunicorn
-https://github.com/XI11A/wiki-api
+https://github.com/XI11A/wiki-api.git
